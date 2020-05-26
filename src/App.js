@@ -18,10 +18,10 @@ function App() {
       >
         <Router>
           <Switch>
-            <Route component={SignUp} path="/" exact />
             <Route component={SignIn} path="/signin" exact />
             <Route component={Home} path="/home" exact />
             <Route component={Weather} path="/weather/state/:name" exact />
+            <Route component={SignUp} path="/" />
           </Switch>
         </Router>
       </Suspense>
