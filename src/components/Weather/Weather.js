@@ -56,28 +56,31 @@ function Weather(props) {
                 </div>
                 <div className="col-xl-2" style={{ marginTop: 70 }}>
                   <WeatherTitle fontSize="15">Rain</WeatherTitle>
-                  <i className="fa fa-cloud" aria-hidden="true"></i>
+                  <i className="fa fa-cloud" style={{ color: "black" }}></i>
                   <WeatherTitle fontSize="20">
                     {props.weather.currently.dewPoint}%
                   </WeatherTitle>
                 </div>
                 <div className="col-xl-2" style={{ marginTop: 70 }}>
                   <WeatherTitle fontSize="15">Wind</WeatherTitle>
-                  <i className="fas fa-wind"></i>
+                  <i className="fas fa-wind" style={{ color: "black" }}></i>
                   <WeatherTitle fontSize="20">
                     {props.weather.currently.windSpeed} km/hr
                   </WeatherTitle>
                 </div>
                 <div className="col-xl-2" style={{ marginTop: 70 }}>
                   <WeatherTitle fontSize="15">Humidity</WeatherTitle>
-                  <i className="fas fa-hand-holding-water"></i>
+                  <i
+                    className="fas fa-hand-holding-water"
+                    style={{ color: "black" }}
+                  ></i>
                   <WeatherTitle fontSize="20">
                     {(props.weather.currently.humidity * 100).toFixed(2)}%
                   </WeatherTitle>
                 </div>
                 <div className="col-xl-2" style={{ marginTop: 70 }}>
                   <WeatherTitle fontSize="15">UV Index</WeatherTitle>
-                  <i className="fas fa-sun"></i>
+                  <i className="fas fa-sun" style={{ color: "black" }}></i>
                   <WeatherTitle fontSize="20">
                     {props.weather.currently.uvIndex} out of 10
                   </WeatherTitle>
