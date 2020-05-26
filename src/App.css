@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.bg {
+  background-image: url("https://wallpapercave.com/wp/wp2035103.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  opacity: 80%;
+  padding-top: 1px;
+}
+
+.weathercontainer {
+  width: 911px;
+  height: 216px;
+  margin-top: 160px;
+  margin-left: -120px;
+  background: white;
+  opacity: 90%;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.details {
+  margin-top: 160px;
+}
+
+@media (max-width: 575.98px) {
+  .bg {
+    background-image: url("https://wallpapercave.com/wp/wp2035103.jpg");
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 80%;
+    padding-top: 1px;
+  }
+}

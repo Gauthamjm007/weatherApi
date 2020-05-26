@@ -1,0 +1,132 @@
+[
+  {
+    "state": "Maharashtra",
+    "lat": "18.975",
+    "lon": "72.825833"
+  },
+  {
+    "state": "Delhi",
+    "lat": "28.666667",
+    "lon": "77.216667"
+  },
+  {
+    "state": "Karnataka",
+    "lat": "12.983333",
+    "lon": "77.583333"
+  },
+  {
+    "state": "Telangana",
+    "lat": "17.375278",
+    "lon": "78.474444"
+  },
+  {
+    "state": "Gujarat",
+    "lat": "23.033333",
+    "lon": "72.616667"
+  },
+  {
+    "state": "Tamil Nadu",
+    "lat": "13.083333",
+    "lon": "80.283333"
+  },
+  {
+    "state": "West Bengal",
+    "lat": "22.569722",
+    "lon": "88.369722"
+  },
+  {
+    "state": "Rajasthan",
+    "lat": "24.583333",
+    "lon": "86.85"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "lat": "26.8500",
+    "lon": "80.916667"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "lat": "26.223611",
+    "lon": "78.179167"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "lat": "16.516667",
+    "lon": "80.616667"
+  },
+  {
+    "state": "Bihar",
+    "lat": "26.169722",
+    "lon": "83.872778"
+  },
+  {
+    "state": "Punjab",
+    "lat": "31.633056",
+    "lon": "74.865556"
+  },
+  {
+    "state": "Haryana",
+    "lat": "28.433333",
+    "lon": "77.316667"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "lat": "30.216667",
+    "lon": "78.783333"
+  },
+  {
+    "state": "Jharkhand",
+    "lat": "23.783333",
+    "lon": "85.966667"
+  },
+  {
+    "state": "Chhattisgarh",
+    "lat": "21.216667",
+    "lon": "81.433333"
+  },
+  {
+    "state": "Assam",
+    "lat": "26.183333",
+    "lon": "91.733333"
+  },
+  {
+    "state": "Chandigarh",
+    "lat": "30.7343",
+    "lon": "76.7933"
+  },
+  {
+    "state": "Orissa",
+    "lat": "20.233333",
+    "lon": "85.833333"
+  },
+  {
+    "state": "Kerala",
+    "lat": "8.506944",
+    "lon": "76.956944"
+  },
+  {
+    "state": "Uttarakhand",
+    "lat": "30.3255646",
+    "lon": "78.0436813"
+  },
+  {
+    "state": "Tripura",
+    "lat": "23.836389",
+    "lon": "91.275"
+  },
+  {
+    "state": "Puducherry",
+    "lat": "11.948880",
+    "lon": "79.712141"
+  },
+  {
+    "state": "Mizoram",
+    "lat": "23.724444",
+    "lon": "92.7175"
+  },
+  {
+    "state": "Manipur",
+    "lat": "24.816667",
+    "lon": "93.95"
+  }
+]
