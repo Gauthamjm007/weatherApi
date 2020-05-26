@@ -19,7 +19,7 @@ function Weather(props) {
     "December",
   ];
   return (
-    <>
+    <div>
       <NavbarPage />
       <div className="bg">
         {props.weather.currently !== undefined && (
@@ -90,7 +90,7 @@ function Weather(props) {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }
 const mapStateToProps = (state) => {

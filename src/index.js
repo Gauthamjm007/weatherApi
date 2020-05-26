@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 import configStore from "./store/configStore";
 import { Provider } from "react-redux";
 import { startgetUsers } from "./action/userAction";
@@ -28,5 +27,3 @@ const jsx = (
   </Provider>
 );
 ReactDOM.render(jsx, document.getElementById("root"));
-
-serviceWorker.unregister();
