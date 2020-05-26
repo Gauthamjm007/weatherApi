@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cc2846d28b7c730846b178fea60e894",
+    "revision": "17da3947235c95627ad23e0d3e25c969",
     "url": "/weatherApi/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherApi/static/css/5.247ef0f1.chunk.css"
   },
   {
-    "revision": "69896f85a391694f56c1",
-    "url": "/weatherApi/static/css/main.5ac4c506.chunk.css"
+    "revision": "0bc5d7eb22832398fb22",
+    "url": "/weatherApi/static/css/main.ee0f0e57.chunk.css"
   },
   {
     "revision": "ed1e46e9e8a3ac2a5f65",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherApi/static/js/6.90a8b566.chunk.js"
   },
   {
-    "revision": "e130d77b82ece29f581d",
-    "url": "/weatherApi/static/js/7.11814d1d.chunk.js"
+    "revision": "1a7c081619b39a437940",
+    "url": "/weatherApi/static/js/7.7e8e3e6c.chunk.js"
   },
   {
     "revision": "935eed9a122d5a57b8e2",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherApi/static/js/9.4a0b7cc4.chunk.js"
   },
   {
-    "revision": "69896f85a391694f56c1",
+    "revision": "0bc5d7eb22832398fb22",
     "url": "/weatherApi/static/js/main.76698ea1.chunk.js"
   },
   {
-    "revision": "919e592bf0362ad71a0f",
-    "url": "/weatherApi/static/js/runtime-main.440369fc.js"
+    "revision": "e4a813ff09e55264d94f",
+    "url": "/weatherApi/static/js/runtime-main.cf4f8fad.js"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/weatherApi/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "514a4eeda46fc87d528eb610eb6205fb",
+    "url": "/weatherApi/static/media/backgroundImage.514a4eed.jpg"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
