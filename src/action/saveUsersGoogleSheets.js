@@ -1,6 +1,6 @@
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 
-async function data(name, email, password) {
+async function saveUsers(name, email, password) {
   const doc = new GoogleSpreadsheet(
     "1VuUA8MKKA8IJwCNi6QdsCRyVWcgn_ZS1uoz_f_sUBFM"
   );
@@ -27,4 +27,4 @@ async function data(name, email, password) {
   return data;
 }
 
-module.exports = data;
+export default saveUsers;

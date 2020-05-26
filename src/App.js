@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Home = lazy(() => import("./components/Home/CoronaCasesTable"));
 const Weather = lazy(() => import("./components/Weather/Weather"));
 const SignUp = lazy(() => import("./components/SignUp/SignUp"));
@@ -17,10 +17,12 @@ function App() {
         }
       >
         <Router>
-          <Route component={SignUp} path="/signup" exact />
-          <Route component={SignIn} path="/signin" exact />
-          <Route component={Home} path="/home" exact />
-          <Route component={Weather} path="/weather/state/:name" exact />
+          <Switch>
+            <Route component={SignUp} path="/" exact />
+            <Route component={SignIn} path="/signin" exact />
+            <Route component={Home} path="/home" exact />
+            <Route component={Weather} path="/weather/state/:name" exact />
+          </Switch>
         </Router>
       </Suspense>
     </>

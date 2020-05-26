@@ -1,6 +1,6 @@
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 
-async function data() {
+async function fetchUsers() {
   const doc = new GoogleSpreadsheet(
     "1VuUA8MKKA8IJwCNi6QdsCRyVWcgn_ZS1uoz_f_sUBFM"
   );
@@ -19,4 +19,4 @@ async function data() {
   return data;
 }
 
-module.exports = data;
+export default fetchUsers;

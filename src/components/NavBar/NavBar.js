@@ -47,7 +47,7 @@ function NavbarPage(props) {
             <MDBNavLink to="/weather/state/Banglore">Weather</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/signup" onClick={handleLogout}>
+            <MDBNavLink to="/" onClick={handleLogout}>
               Logout
             </MDBNavLink>
           </MDBNavItem>
