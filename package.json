@@ -10,7 +10,6 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "csvtojson": "^2.0.10",
-    "d3": "^5.16.0",
     "formik": "^2.1.4",
     "google-spreadsheet": "^3.0.11",
     "mdbreact": "^4.27.0",
@@ -48,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.0.1"
   }
 }
