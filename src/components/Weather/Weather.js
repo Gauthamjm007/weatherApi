@@ -22,24 +22,24 @@ function Weather(props) {
     <div>
       <NavbarPage />
       <div className="bg">
-        {props.weather.currently !== undefined && (
-          <div className="container" style={{ marginLeft: 105 }}>
-            <div className="row">
-              <div className="col-xl-6">
-                <WeatherTitle fontSize="20" style={{ color: "white" }}>
-                  {month[new Date().getMonth()]} {new Date().getDate()}
-                </WeatherTitle>
-                <WeatherTitle fontSize="50" style={{ color: "white" }}>
-                  {props.match.params.name}
-                </WeatherTitle>
-              </div>
-              <div className="col-xl-6">
-                <i
-                  className="fas fa-arrow-right fa-3x"
-                  style={{ color: "white" }}
-                ></i>
-              </div>
+        <div className="container" style={{ marginLeft: 105 }}>
+          <div className="row">
+            <div className="col-xl-6">
+              <WeatherTitle fontSize="20" style={{ color: "white" }}>
+                {month[new Date().getMonth()]} {new Date().getDate()}
+              </WeatherTitle>
+              <WeatherTitle fontSize="50" style={{ color: "white" }}>
+                {props.match.params.name}
+              </WeatherTitle>
             </div>
+            <div className="col-xl-6">
+              <i
+                className="fas fa-arrow-right fa-3x"
+                style={{ color: "white" }}
+              ></i>
+            </div>
+          </div>
+          {props.weather.currently !== undefined && (
             <div className="weathercontainer">
               <div className="row" style={{ marginLeft: 10 }}>
                 <div className="col-xl-4">
@@ -87,8 +87,8 @@ function Weather(props) {
                 </div>
               </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function App() {
           <Switch>
             <Route component={SignIn} path="/signin" exact />
             <Route component={Home} path="/home" exact />
-            <Route component={Weather} path="/weather/state/:name" />
+            <Route component={Weather} path="/weather/:name" />
             <Route component={SignUp} path="/" />
           </Switch>
         </Router>
