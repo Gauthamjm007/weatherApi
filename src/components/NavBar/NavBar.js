@@ -44,7 +44,7 @@ function NavbarPage(props) {
             <MDBNavLink to="/home">Home</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
-            <MDBNavLink to="/weather/state/banglore">Weather</MDBNavLink>
+            <MDBNavLink to="/weather/banglore">Weather</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem>
             <MDBNavLink to="/signup" onClick={handleLogout}>
@@ -65,9 +65,7 @@ function NavbarPage(props) {
                       key={data.state}
                       onClick={() => handleWeatherFetch(data.lat, data.lon)}
                     >
-                      <Link to={`/weather/state/${data.state}`}>
-                        {data.state}
-                      </Link>
+                      <Link to={`/weather/${data.state}`}>{data.state}</Link>
                     </MDBDropdownItem>
                   );
                 })}
